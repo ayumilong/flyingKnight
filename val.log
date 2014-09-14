@@ -1,0 +1,14 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK7Manager8getScoreEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK7Manager7getLifeEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}

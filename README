@@ -1,0 +1,26 @@
+Name: Yaolin Zhang
+Email: yaolinz@clemson.edu
+Due-day: December 11th, 2013
+
+Proj No: Programming Project #5---A playable game
+
+Description: This is my fifth and final programming project. The purpose of this project is to learn how to implement menu and AI then incorporate all the skills that used in the four previous project to work our a playable game.
+
+The specifications that I have implemented are:
+	1. Menu---Main menu, Submenu: Select level submenu, Setting submenu, High score submenu
+	2. AI---The enemies will not shoot until the player is in the shooting range of themselves
+	3. Select level---Totoaly have 5 levels and you can select to play any of them
+	4. Setting---Turn on of turn off the music, select a mode: Easy, Normal or Difficult
+	5. High score---Save the top 10 scores that all the players have ever got. These 10 scores will be pemanently stored in a data file and be updated if there are some players get a higher score which is higher at least than the last one of the top 10 scores.
+	6. Magic shooting---If you have enough magic, you can press enter to lanuch magic shooting
+	7. Win the game---When you kill all the enemies you will pass the current level and if you pass all the 5 levels you will be the winner
+	8. Lose the game---At the very beginning, you have 3 lives. If you lose all your lives, you will be lose.
+	
+Extra features:
+	Supply a valgrind.supp file called yaolin_sdl.supp that suppresses valgrind leaks from SDL library code, so my code has no memory leak at all. You can use this file as follows:
+		valgrind --suppressions=yaolin_sdl.supp ./run
+
+Sprites reference:
+	Back World: http://img.ivsky.com/img/tupian/pre/201009/18/caodiyudashu-018.jpg
+	Butterfly as single sprite: http://pic19.nipic.com/20120217/8760658_172356350105_2.png
+	All other pictures and all the audios are acquired from www.66rpg.com 

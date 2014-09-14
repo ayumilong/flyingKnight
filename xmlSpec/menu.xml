@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<words>
+  <wordsNumber>6</wordsNumber>
+  <wordsX>400</wordsX>
+  <wordsY>180</wordsY>
+  <wordsSpaceX>40</wordsSpaceX>
+  <wordsSpaceY>40</wordsSpaceY>
+  <words0>Start Game</words0>
+  <words1>Setting</words1>
+  <words2>Select Level</words2>
+  <words3>High Score</words3>
+  <words4>Help</words4>
+  <words5>Exit</words5>
+</words>
+
+<gameover>
+  <gameoverNumber>2</gameoverNumber>
+  <gameoverX>400</gameoverX>
+  <gameoverY>180</gameoverY>
+  <gameoverSpaceX>40</gameoverSpaceX>
+  <gameoverSpaceY>40</gameoverSpaceY>
+  <gameover0>Main Menu</gameover0>
+  <gameover1>Restart</gameover1>
+</gameover>
+
+<gamewin>
+  <gamewinNumber>2</gamewinNumber>
+  <gamewinX>400</gamewinX>
+  <gamewinY>180</gamewinY>
+  <gamewinSpaceX>40</gamewinSpaceX>
+  <gamewinSpaceY>40</gamewinSpaceY>
+  <gamewin0>Main Menu</gamewin0>
+  <gamewin1>Next Level</gamewin1>
+</gamewin>
+
+<control>
+  <controlNumber>4</controlNumber>
+  <controlX>400</controlX>
+  <controlY>180</controlY>
+  <controlSpaceX>40</controlSpaceX>
+  <controlSpaceY>40</controlSpaceY>
+  <control0>Music</control0>
+  <control1>Easy</control1>
+  <control2>Normal</control2>
+  <control3>Hard</control3>
+</control>
+
+<levels>
+  <levelsNumber>5</levelsNumber>
+  <levelsX>40</levelsX>
+  <levelsY>200</levelsY>
+  <levelsSpaceX>180</levelsSpaceX>
+  <levelsSpaceY>120</levelsSpaceY>
+  <levelsWidth>150</levelsWidth>
+  <levelsHeight>94</levelsHeight>
+  <levelsSrcX>0</levelsSrcX>
+  <levelsSrcY>0</levelsSrcY>
+  <levels0>images/selectlevel1.png</levels0>
+  <levels1>images/selectlevel2.png</levels1>
+  <levels2>images/selectlevel3.png</levels2>
+  <levels3>images/selectlevel4.png</levels3>
+  <levels4>images/selectlevel5.png</levels4>
+  <levelsTransparency>false</levelsTransparency>
+</levels>
+
+<clickoff>
+  <clickoffFile>images/clickoff.png</clickoffFile>
+  <clickoffWidth>24</clickoffWidth>
+  <clickoffHeight>24</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clickoffTransparency>false</clickoffTransparency>
+</clickoff>
+
+<clickon>
+  <clickonFile>images/clickon.png</clickonFile>
+  <clickonWidth>24</clickonWidth>
+  <clickonHeight>24</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonTransparency>false</clickonTransparency>
+</clickon>
+
+</MenuSpec>

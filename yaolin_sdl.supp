@@ -1,0 +1,2601 @@
+{
+   Leak__dl_init
+   Memcheck:Leak
+   fun:malloc
+   fun:libjpeg_general_init
+   fun:call_init
+   fun:_dl_init
+   obj:/lib/i386-linux-gnu/ld-2.15.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:strdup
+   fun:_XlcResolveLocaleName
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XimOpenIM
+   fun:XOpenIM
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+   fun:_ZN7ManagerC1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:strdup
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:strdup
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcDefaultMapModifiers
+   fun:XSetLocaleModifiers
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+   fun:_ZN7ManagerC1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:XextCreateExtension
+   obj:/usr/lib/i386-linux-gnu/libXext.so.6.4.0
+   obj:/usr/lib/i386-linux-gnu/libXext.so.6.4.0
+   fun:XextAddDisplay
+   obj:/usr/lib/i386-linux-gnu/libXext.so.6.4.0
+   fun:XShmQueryExtension
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+   fun:_XNoticeCreateBitmap
+   fun:XCreatePixmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_dlerror_run
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XrmInternalStringToQuark
+   fun:XrmStringToQuark
+   fun:_XlcGetCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:local_strdup
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcAddCharSet
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+   fun:_XNoticeCreateBitmap
+   fun:XCreatePixmap
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:local_strdup
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_error
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_error
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XrmInitParseInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcDefaultLoader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_check_map_versions
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:__fopen_internal
+   fun:fopen@@GLIBC_2.1
+   fun:libjpeg_general_init
+   fun:call_init
+   fun:_dl_init
+   obj:/lib/i386-linux-gnu/ld-2.15.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+
+{
+   Leak_SDL_VideoInit
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcAddCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+}
+
+{
+   Leak__dl_catch_error
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+
+{
+   Leak_SDL_VideoInit
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+}
+
+{
+   Leak_SDL_Init
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+
+{
+   Leak_SDL_Init
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+}
+
+{
+   Leak_SDL_VideoInit
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+}
+
+{
+   Leak__dl_catch_error
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_error
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:dlopen_doit
+   fun:_dl_catch_error
+}
+
+{
+   Leak_SDL_InitSubSystem
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+}
+
+{
+   Leak__XlcCreateLocaleDataBase
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+}
+
+{
+   Leak_SDL_VideoInit
+   Memcheck:Leak
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+}
+
+{
+   Leak_SDL_VideoInit
+   Memcheck:Leak
+   fun:calloc
+   fun:_XrmInternalStringToQuark
+   fun:XrmStringToQuark
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+   fun:_XNoticeCreateBitmap
+   fun:XCreatePixmap
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+}
+
+{
+   Leak_XOpenLc
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XrmInternalStringToQuark
+   fun:XrmStringToQuark
+   fun:_XlcGetCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+}
+
+{
+   Leak_XCreatePixmap
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XrmInternalStringToQuark
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+   fun:_XNoticeCreateBitmap
+   fun:XCreatePixmap
+}
+
+{
+   Cond
+   Memcheck:Cond
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+}
+
+{
+   Param
+   Memcheck:Param
+   writev(vector[...])
+   fun:writev
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+   fun:_ZN7ManagerC1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   fun:_XlcResolveLocaleName
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorSupportsARGB
+   fun:XcursorNoticeCreateBitmap
+   fun:_XNoticeCreateBitmap
+   fun:XCreatePixmap
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:_XrmInternalStringToQuark
+   fun:XrmStringToQuark
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcOpenConverter
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:Xutf8TextListToTextProperty
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_WM_SetCaption
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XrmInternalStringToQuark
+   fun:XrmStringToQuark
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:_XlcOpenConverter
+   obj:/usr/lib/i386-linux-gnu/libX11.so.6.3.0
+   fun:Xutf8TextListToTextProperty
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_log_set_ident
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_log_levelv_meta
+   fun:pa_log_level_meta
+   fun:pa_mempool_new
+   fun:pa_context_new_with_proplist
+   fun:pa_context_new
+   fun:pa_simple_new
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_tls_new
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_thread_self
+   fun:pa_threaded_mainloop_wait
+   fun:pa_simple_new
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_AudioInit
+   fun:SDL_InitSubSystem
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_queue_push
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_context_new_with_proplist
+   fun:pa_context_new
+   fun:pa_simple_new
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_AudioInit
+   fun:SDL_InitSubSystem
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_thread_self
+   fun:pa_threaded_mainloop_wait
+   fun:pa_simple_new
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_AudioInit
+   fun:SDL_InitSubSystem
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_init_proplist
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_stream_new_with_proplist
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_set
+   fun:pa_tagstruct_get_proplist
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_set
+   fun:pa_tagstruct_get_proplist
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_set
+   fun:pa_tagstruct_get_proplist
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   fun:pa_proplist_set
+   fun:pa_tagstruct_get_proplist
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_hashmap_put
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:SDL_CreateMutex
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_xmemdup
+   fun:pa_xstrdup
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_xmemdup
+   fun:pa_xstrdup
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_queue_push
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_xmemdup
+   fun:pa_xstrdup
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_context_new_with_proplist
+   fun:pa_context_new
+   fun:pa_simple_new
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_xmemdup
+   fun:pa_xstrdup
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_run_once
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_stream_update_timing_info
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_pdispatch_register_reply
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_xmemdup
+   fun:pa_xstrdup
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_pdispatch_register_reply
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_stream_update_timing_info
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:pa_xmalloc
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_hashmap_put
+   fun:pa_proplist_sets
+   fun:pa_context_new_with_proplist
+   fun:pa_context_new
+   fun:pa_simple_new
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_AudioInit
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_queue_push
+   fun:pa_pstream_send_packet
+   fun:pa_pstream_send_tagstruct_with_creds
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_run_once
+   fun:pa_pdispatch_register_reply
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_mainloop_dispatch
+   fun:pa_mainloop_iterate
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:pa_xmalloc0
+   fun:pa_flist_new_with_name
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_run_once
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   fun:pa_stream_update_timing_info
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+   obj:/usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+   fun:pa_pdispatch_run
+   obj:/usr/lib/i386-linux-gnu/libpulse.so.0.13.5
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Player11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZNK25PerPixelCollisionStrategy9isVisibleEjP11SDL_Surface
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Player11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZNK25PerPixelCollisionStrategy9isVisibleEjP11SDL_Surface
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:main
+}
+
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Player11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZNK25PerPixelCollisionStrategy9isVisibleEjP11SDL_Surface
+   fun:_ZNK25PerPixelCollisionStrategy7executeERK8DrawableS2_
+   fun:_ZN7Bullets15collisionDetectEPK8Drawable
+   fun:_ZN6Planes11collideWithEPK8Drawable
+   fun:_ZN7Manager6updateEv
+   fun:_ZN7Manager4playEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XimOpenIM
+   fun:XOpenIM
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+   fun:_ZN11MenuManagerC1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:_XlcDefaultMapModifiers
+   fun:XSetLocaleModifiers
+   obj:/usr/lib/i386-linux-gnu/libSDL-1.2.so.0.11.3
+   fun:SDL_VideoInit
+   fun:SDL_InitSubSystem
+   fun:SDL_Init
+   fun:SDL_SetVideoMode
+   fun:_ZN9IOManagerC1Ev
+   fun:_ZN9IOManager11getInstanceEv
+   fun:_ZN11MenuManagerC1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK7Manager8getLevelEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZN7Manager8getScoreEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK7Manager8getScoreEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_ZNK7Manager7getLifeEv
+   fun:_ZN11MenuManager4playEv
+   fun:main
+}

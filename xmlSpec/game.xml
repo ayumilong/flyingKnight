@@ -1,0 +1,359 @@
+<?xml version = "1.0"?>
+<GameData>
+<view>
+  <viewWidth>960</viewWidth>
+  <viewHeight>600</viewHeight>
+</view>
+
+<world>
+  <worldWidth>4800</worldWidth>
+  <worldHeight>600</worldHeight>
+</world>
+
+<back>
+  <backRed>255</backRed>
+  <backGreen>255</backGreen>
+  <backBlue>255</backBlue>
+  <backFile>images/sky.jpg</backFile>
+  <backFactor>1</backFactor>
+  <backWidth>1024</backWidth>
+  <backHeight>600</backHeight>
+  <backXRange>0</backXRange>
+  <backYRange>0</backYRange>
+  <backTransparency>false</backTransparency>
+</back>
+
+<flipback>
+  <flipbackRed>255</flipbackRed>
+  <flipbackGreen>255</flipbackGreen>
+  <flipbackBlue>255</flipbackBlue>
+  <flipbackFile>images/flipsky.jpg</flipbackFile>
+  <flipbackFactor>1</flipbackFactor>
+  <flipbackWidth>1024</flipbackWidth>
+  <flipbackHeight>600</flipbackHeight>
+  <flipbackXRange>0</flipbackXRange>
+  <flipbackYRange>0</flipbackYRange>
+  <flipbackTransparency>true</flipbackTransparency>
+</flipback>
+
+<menueback>
+  <menuebackRed>255</menuebackRed>
+  <menuebackGreen>255</menuebackGreen>
+  <menuebackBlue>255</menuebackBlue>
+  <menuebackFile>images/menueback.jpg</menuebackFile>
+  <menuebackFactor>1</menuebackFactor>
+  <menuebackWidth>960</menuebackWidth>
+  <menuebackHeight>600</menuebackHeight>
+  <menuebackXRange>0</menuebackXRange>
+  <menuebackYRange>0</menuebackYRange>
+  <menuebackTransparency>false</menuebackTransparency>
+</menueback>
+
+<flipmenueback>
+  <flipmenuebackRed>255</flipmenuebackRed>
+  <flipmenuebackGreen>255</flipmenuebackGreen>
+  <flipmenuebackBlue>255</flipmenuebackBlue>
+  <flipmenuebackFile>images/flipmenueback.jpg</flipmenuebackFile>
+  <flipmenuebackFactor>1</flipmenuebackFactor>
+  <flipmenuebackWidth>960</flipmenuebackWidth>
+  <flipmenuebackHeight>600</flipmenuebackHeight>
+  <flipmenuebackXRange>0</flipmenuebackXRange>
+  <flipmenuebackYRange>0</flipmenuebackYRange>
+  <flipmenuebackTransparency>false</flipmenuebackTransparency>
+</flipmenueback>
+
+<level1>
+  <level1File>images/level1.png</level1File>
+  <level1Factor>1</level1Factor>
+  <level1Width>960</level1Width>
+  <level1Height>600</level1Height>
+  <level1XRange>0</level1XRange>
+  <level1YRange>60</level1YRange>
+  <level1Transparency>false</level1Transparency>
+</level1>
+
+<fliplevel1>
+  <fliplevel1File>images/fliplevel1.png</fliplevel1File>
+  <fliplevel1Factor>1</fliplevel1Factor>
+  <fliplevel1Width>960</fliplevel1Width>
+  <fliplevel1Height>600</fliplevel1Height>
+  <fliplevel1XRange>0</fliplevel1XRange>
+  <fliplevel1YRange>60</fliplevel1YRange>
+  <fliplevel1Transparency>false</fliplevel1Transparency>
+</fliplevel1>
+
+<level2>
+  <level2File>images/level2.png</level2File>
+  <level2Factor>1</level2Factor>
+  <level2Width>960</level2Width>
+  <level2Height>600</level2Height>
+  <level2XRange>0</level2XRange>
+  <level2YRange>60</level2YRange>
+  <level2Transparency>false</level2Transparency>
+</level2>
+
+<fliplevel2>
+  <fliplevel2File>images/fliplevel2.png</fliplevel2File>
+  <fliplevel2Factor>1</fliplevel2Factor>
+  <fliplevel2Width>960</fliplevel2Width>
+  <fliplevel2Height>600</fliplevel2Height>
+  <fliplevel2XRange>0</fliplevel2XRange>
+  <fliplevel2YRange>60</fliplevel2YRange>
+  <fliplevel2Transparency>false</fliplevel2Transparency>
+</fliplevel2>
+
+<level3>
+  <level3File>images/level3.png</level3File>
+  <level3Factor>1</level3Factor>
+  <level3Width>960</level3Width>
+  <level3Height>600</level3Height>
+  <level3XRange>0</level3XRange>
+  <level3YRange>60</level3YRange>
+  <level3Transparency>false</level3Transparency>
+</level3>
+
+<fliplevel3>
+  <fliplevel3File>images/fliplevel3.png</fliplevel3File>
+  <fliplevel3Factor>1</fliplevel3Factor>
+  <fliplevel3Width>960</fliplevel3Width>
+  <fliplevel3Height>600</fliplevel3Height>
+  <fliplevel3XRange>0</fliplevel3XRange>
+  <fliplevel3YRange>60</fliplevel3YRange>
+  <fliplevel3Transparency>false</fliplevel3Transparency>
+</fliplevel3>
+
+<level4>
+  <level4File>images/level4.png</level4File>
+  <level4Factor>1</level4Factor>
+  <level4Width>960</level4Width>
+  <level4Height>600</level4Height>
+  <level4XRange>0</level4XRange>
+  <level4YRange>60</level4YRange>
+  <level4Transparency>false</level4Transparency>
+</level4>
+
+<fliplevel4>
+  <fliplevel4File>images/fliplevel4.png</fliplevel4File>
+  <fliplevel4Factor>1</fliplevel4Factor>
+  <fliplevel4Width>960</fliplevel4Width>
+  <fliplevel4Height>600</fliplevel4Height>
+  <fliplevel4XRange>0</fliplevel4XRange>
+  <fliplevel4YRange>60</fliplevel4YRange>
+  <fliplevel4Transparency>false</fliplevel4Transparency>
+</fliplevel4>
+
+<level5>
+  <level5File>images/level5.png</level5File>
+  <level5Factor>1</level5Factor>
+  <level5Width>960</level5Width>
+  <level5Height>600</level5Height>
+  <level5XRange>0</level5XRange>
+  <level5YRange>60</level5YRange>
+  <level5Transparency>false</level5Transparency>
+</level5>
+
+<fliplevel5>
+  <fliplevel5File>images/fliplevel5.png</fliplevel5File>
+  <fliplevel5Factor>1</fliplevel5Factor>
+  <fliplevel5Width>960</fliplevel5Width>
+  <fliplevel5Height>600</fliplevel5Height>
+  <fliplevel5XRange>0</fliplevel5XRange>
+  <fliplevel5YRange>60</fliplevel5YRange>
+  <fliplevel5Transparency>false</fliplevel5Transparency>
+</fliplevel5>
+
+<screenTitle>Jack's First Game</screenTitle>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>24</fontSize>
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>255</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>20</maxStringSize>
+
+<kindsOfSprites>3</kindsOfSprites>
+<defaultSpritesNumber>5</defaultSpritesNumber>  <!--indicates default orbs number-->
+<defaultEnemiesNumber>50</defaultEnemiesNumber>  <!--indicates default orbs number-->
+<orbChunkSize>15</orbChunkSize>
+<enemyspriteChunkDistance>200</enemyspriteChunkDistance>
+<playerChunkDistance>100</playerChunkDistance>
+
+<singlesprite>
+  <singlespriteFile>images/ayu64.png</singlespriteFile>
+  <singlespriteSrcX>0</singlespriteSrcX>
+  <singlespriteSrcY>0</singlespriteSrcY>
+  <singlespriteWidth>64</singlespriteWidth>
+  <singlespriteHeight>48</singlespriteHeight>
+  <singlespriteLoc singlespriteX="0" singlespriteY="0"/>
+  <singlespriteSpeed singlespriteSpeedX="100" singlespriteSpeedY="100"/>
+  <singlespriteTransparency>true</singlespriteTransparency>
+</singlesprite>
+
+<multisprite>
+  <multispriteFile>images/multi.png</multispriteFile>
+  <multispriteSrcX>0</multispriteSrcX>
+  <multispriteSrcY>0</multispriteSrcY>
+  <multispriteWidth>99</multispriteWidth>
+  <multispriteHeight>99</multispriteHeight>
+  <multispriteFrames>8</multispriteFrames>
+  <multispriteWholeWidth>1980</multispriteWholeWidth>
+  <multispriteWholeHeight>4158</multispriteWholeHeight>
+  <multispriteDefaultRV>30</multispriteDefaultRV>
+  <multispriteLoc multispriteX="0" multispriteY="0"/>
+  <multispriteSpeed multispriteSpeedX="100" multispriteSpeedY="100"/>
+  <multispriteTransparency>true</multispriteTransparency>
+</multisprite>
+
+<fourwaysprite>
+	<fourwayspriteFile>images/fourway.png</fourwayspriteFile>
+  	<fourwayspriteSrcX>0</fourwayspriteSrcX>
+  	<fourwayspriteSrcY>0</fourwayspriteSrcY>
+  	<fourwayspriteWidth>80</fourwayspriteWidth>
+  	<fourwayspriteHeight>78</fourwayspriteHeight>
+  	<fourwayspriteFrames>16</fourwayspriteFrames>
+  	<fourwayspriteWholeWidth>322</fourwayspriteWholeWidth>
+  	<fourwayspriteWholeHeight>312</fourwayspriteWholeHeight>
+  	<fourwayspriteDefaultRV>30</fourwayspriteDefaultRV>
+  	<fourwayspriteLoc fourwayspriteX="0" fourwayspriteY="0"/>
+  	<fourwayspriteSpeed fourwayspriteSpeedX="300" fourwayspriteSpeedY="0"/>
+  	<fourwayspriteTransparency>true</fourwayspriteTransparency>
+</fourwaysprite>
+
+
+<enemysprite>
+	<enemyspriteFile>images/enemy.png</enemyspriteFile>
+  	<enemyspriteSrcX>0</enemyspriteSrcX>
+  	<enemyspriteSrcY>0</enemyspriteSrcY>
+  	<enemyspriteWidth>117</enemyspriteWidth>
+  	<enemyspriteHeight>117</enemyspriteHeight>
+  	<enemyspriteFrames>16</enemyspriteFrames>
+  	<enemyspriteWholeWidth>468</enemyspriteWholeWidth>
+  	<enemyspriteWholeHeight>468</enemyspriteWholeHeight>
+  	<enemyspriteDefaultRV>30</enemyspriteDefaultRV>
+  	<enemyspriteLoc enemyspriteX="0" enemyspriteY="200"/>
+  	<enemyspriteSpeed enemyspriteSpeedX="100" enemyspriteSpeedY="0"/>
+  	<enemyspriteTransparency>true</enemyspriteTransparency>
+</enemysprite>
+
+<leftplane>
+	<leftplaneFile>images/leftplane.png</leftplaneFile>
+  	<leftplaneSrcX>0</leftplaneSrcX>
+  	<leftplaneSrcY>0</leftplaneSrcY>
+  	<leftplaneWidth>120</leftplaneWidth>
+  	<leftplaneHeight>120</leftplaneHeight>
+  	<leftplaneLoc leftplaneX="0" leftplaneY="480"/>
+  	<enemyspriteSpeed leftplaneSpeedX="0" leftplaneSpeedY="0"/>
+  	<leftplaneTransparency>true</leftplaneTransparency>
+</leftplane>
+<upplane>
+	<upplaneFile>images/upplane.png</upplaneFile>
+  	<upplaneSrcX>0</upplaneSrcX>
+  	<upplaneSrcY>0</upplaneSrcY>
+  	<upplaneWidth>120</upplaneWidth>
+  	<upplaneHeight>120</upplaneHeight>
+  	<upplaneLoc upplaneX="420" upplaneY="480"/>
+  	<enemyspriteSpeed upplaneSpeedX="0" upplaneSpeedY="0"/>
+  	<upplaneTransparency>true</upplaneTransparency>
+</upplane>
+<rightplane>
+	<rightplaneFile>images/rightplane.png</rightplaneFile>
+  	<rightplaneSrcX>0</rightplaneSrcX>
+  	<rightplaneSrcY>0</rightplaneSrcY>
+  	<rightplaneWidth>120</rightplaneWidth>
+  	<rightplaneHeight>120</rightplaneHeight>
+  	<rightplaneLoc rightplaneX="840" rightplaneY="480"/>
+  	<enemyspriteSpeed rightplaneSpeedX="0" rightplaneSpeedY="0"/>
+  	<rightplaneTransparency>true</rightplaneTransparency>
+</rightplane>
+
+<leftbullet>
+	<leftbulletFile>images/leftbullet.png</leftbulletFile>
+  	<leftbulletSrcX>0</leftbulletSrcX>
+  	<leftbulletSrcY>0</leftbulletSrcY>
+  	<leftbulletWidth>48</leftbulletWidth>
+  	<leftbulletHeight>48</leftbulletHeight>
+  	<leftbulletLoc leftbulletX="0" leftbulletY="480"/>
+  	<enemyspriteSpeed leftbulletSpeedX="0" leftbulletSpeedY="0"/>
+  	<leftbulletTransparency>true</leftbulletTransparency>
+</leftbullet>
+<upbullet>
+	<upbulletFile>images/upbullet.png</upbulletFile>
+  	<upbulletSrcX>0</upbulletSrcX>
+  	<upbulletSrcY>0</upbulletSrcY>
+  	<upbulletWidth>48</upbulletWidth>
+  	<upbulletHeight>48</upbulletHeight>
+  	<upbulletLoc upbulletX="420" upbulletY="480"/>
+  	<enemyspriteSpeed upbulletSpeedX="0" upbulletSpeedY="0"/>
+  	<upbulletTransparency>true</upbulletTransparency>
+</upbullet>
+<rightbullet>
+	<rightbulletFile>images/rightbullet.png</rightbulletFile>
+  	<rightbulletSrcX>0</rightbulletSrcX>
+  	<rightbulletSrcY>0</rightbulletSrcY>
+  	<rightbulletWidth>48</rightbulletWidth>
+  	<rightbulletHeight>48</rightbulletHeight>
+  	<rightbulletLoc rightbulletX="840" rightbulletY="480"/>
+  	<enemyspriteSpeed rightbulletSpeedX="0" rightbulletSpeedY="0"/>
+  	<rightbulletTransparency>true</rightbulletTransparency>
+</rightbullet>
+
+<left>
+	<leftFile>images/left.png</leftFile>
+  	<leftSrcX>0</leftSrcX>
+  	<leftSrcY>0</leftSrcY>
+  	<leftWidth>24</leftWidth>
+  	<leftHeight>24</leftHeight>
+  	<leftLoc leftX="0" leftY="480"/>
+  	<enemyspriteSpeed leftSpeedX="0" leftSpeedY="0"/>
+  	<leftTransparency>true</leftTransparency>
+</left>
+<up>
+	<upFile>images/up.png</upFile>
+  	<upSrcX>0</upSrcX>
+  	<upSrcY>0</upSrcY>
+  	<upWidth>24</upWidth>
+  	<upHeight>24</upHeight>
+  	<upLoc upX="420" upY="480"/>
+  	<enemyspriteSpeed upSpeedX="0" upSpeedY="0"/>
+  	<upTransparency>true</upTransparency>
+</up>
+<down>
+	<downFile>images/down.png</downFile>
+  	<downSrcX>0</downSrcX>
+  	<downSrcY>0</downSrcY>
+  	<downWidth>24</downWidth>
+  	<downHeight>24</downHeight>
+  	<downLoc downX="840" downY="480"/>
+  	<enemyspriteSpeed downSpeedX="0" downSpeedY="0"/>
+  	<downTransparency>true</downTransparency>
+</down>
+<right>
+	<rightFile>images/right.png</rightFile>
+  	<rightSrcX>0</rightSrcX>
+  	<rightSrcY>0</rightSrcY>
+  	<rightWidth>24</rightWidth>
+  	<rightHeight>24</rightHeight>
+  	<rightLoc rightX="840" rightY="480"/>
+  	<enemyspriteSpeed rightSpeedX="0" rightSpeedY="0"/>
+  	<rightTransparency>true</rightTransparency>
+</right>
+
+<player>
+	<playerFile>images/player.png</playerFile>
+  	<playerSrcX>0</playerSrcX>
+  	<playerSrcY>0</playerSrcY>
+  	<playerWidth>131</playerWidth>
+  	<playerHeight>131</playerHeight>
+  	<playerFrames>16</playerFrames>
+  	<playerWholeWidth>539</playerWholeWidth>
+  	<playerWholeHeight>524</playerWholeHeight>
+  	<playerDefaultRV>30</playerDefaultRV>
+  	<playerLoc playerX="0" playerY="300"/>
+  	<playerSpeed playerSpeedX="0" playerSpeedY="0"/>
+  	<playerTransparency>true</playerTransparency>
+</player>
+
+</GameData>

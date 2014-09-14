@@ -1,0 +1,73 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>1024</viewWidth>
+  <viewHeight>640</viewHeight>
+</view>
+
+<world>
+  <worldWidth>1024</worldWidth>
+  <worldHeight>640</worldHeight>
+</world>
+
+<back>
+  <backRed>255</backRed>
+  <backGreen>255</backGreen>
+  <backBlue>255</backBlue>
+</back>
+<screenTitle>Basic Game Framework</screenTitle>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>32</fontSize>
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>20</maxStringSize>
+
+<kindsOfOrbs>2</kindsOfOrbs>
+<defaultOrbsNumber>20</defaultOrbsNumber>  <!--My code, indicates default orbs number-->
+<onceAddNumber>1</onceAddNumber>  <!--My code, indicates how many orbs should be added when user presses button "B"-->
+<onceDeleteNumber>1</onceDeleteNumber>  <!--My code, indicates how many orbs should be deleted when user pressed button "K"-->
+<accelerateValue>200</accelerateValue>  <!--My code, indicates how fast the speed increase when user presses button "A"-->
+<decelerateValue>200</decelerateValue>  <!--My code, indicates how fast the speed decrease when user presses button "B"-->
+<numberPositionX>0</numberPositionX>  <!--My code, indicates where to display the number of current orbs-->
+<numberPositionY>608</numberPositionY>  <!--My code, indicates where to display the number of current orbs-->
+
+<grassland>
+  <grasslandFile>images/woodboard1024.png</grasslandFile>
+  <grasslandSrcX>0</grasslandSrcX>
+  <grasslandSrcY>0</grasslandSrcY>
+  <grasslandWidth>1024</grasslandWidth>
+  <grasslandHeight>640</grasslandHeight>
+  <grasslandLoc grasslandX="0" grasslandY="0"/>
+  <grasslandSpeed grasslandSpeedX="0" grasslandSpeedY="0"/>
+  <grasslandTransparency>true</grasslandTransparency>
+</grassland>
+
+<pinkbutterfly>
+  <pinkbutterflyFile>images/pinkbutterfly64.png</pinkbutterflyFile>
+  <pinkbutterflySrcX>0</pinkbutterflySrcX>
+  <pinkbutterflySrcY>0</pinkbutterflySrcY>
+  <pinkbutterflyWidth>64</pinkbutterflyWidth>
+  <pinkbutterflyHeight>90</pinkbutterflyHeight>
+  <pinkbutterflyLoc pinkbutterflyX="400" pinkbutterflyY="284"/>
+  <pinkbutterflySpeed pinkbutterflySpeedX="200" pinkbutterflySpeedY="200"/>
+  <pinkbutterflyTransparency>true</pinkbutterflyTransparency>
+</pinkbutterfly>
+
+<blackbutterfly>
+  <blackbutterflyFile>images/blackbutterfly64.png</blackbutterflyFile>
+  <blackbutterflySrcX>0</blackbutterflySrcX>
+  <blackbutterflySrcY>0</blackbutterflySrcY>
+  <blackbutterflyWidth>64</blackbutterflyWidth>
+  <blackbutterflyHeight>90</blackbutterflyHeight>
+  <blackbutterflyLoc blackbutterflyX="400" blackbutterflyY="284"/>
+  <blackbutterflySpeed blackbutterflySpeedX="200" blackbutterflySpeedY="200"/>
+  <blackbutterflyTransparency>true</blackbutterflyTransparency>
+</blackbutterfly>
+
+</GameData>
